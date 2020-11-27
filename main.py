@@ -6,20 +6,30 @@
 
 #-----------------------------------------------------------------------------------
 
-#masa pierwszego obiektu
-m1=2
-#masa drugiego obiektu
-m2=2
-#odległość pomiędzy środkami ciężkości obiektów
-r=1
+#masa pierwszego obiektu w kg
+m1=2000000000
+#promień pierwszego obiektu w m
+r1=1000000
+#masa drugiego obiektu w kg
+m2=3000000000
+#promień drugiego obiektu w m
+r2=2000000
+#odległość pomiędzy powirzchniami obiektów w m
+s=10000000
 #Stała grawitacji
 G=6.67430*10**(-11)
-#siła
-F=(G*m1*m2)/r**2
-print(F)
+#siła oddziaływania grawitacyjnego między obiektami w
+F=(G*m1*m2)/s**2
+print('siła oddziaływania grawitacyjnego między obiektami ', F, 'Newtonów\n')
 #przyspieszenie pierwszego obiektu
-a1=(G*m2)/r**2
-print(a1)
+a1=(G*m2)/s**2
+print('przyspieszenie pierwszego obiektu ', a1, ' metrów na sekundę do kwadratu\n' )
 #przyspieszenie drugiego obiektu
-a2=(G*m1)/r**2
-print(a2)
+a2=(G*m1)/s**2
+print('przyspieszenie drugiego obiektu', a2, ' metrów na sekundę do kwadratu\n')
+#prędkość ciała 1 w chwili zderzenia
+V1=(G*m2)/(r1+r2)
+print('prędkość ciała 1 w chwili zderzenia', V1, ' metrów na sekundę\n')
+#prędkość ciała 2 w chwili zderzenia
+V2=(G*m1)/(r1+r2)
+print('prędkość ciała 2 w chwili zderzenia', V2, ' metrów na sekundę\n')
