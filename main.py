@@ -20,7 +20,7 @@ s=10000000
 G=6.67430*10**(-11)
 #siła oddziaływania grawitacyjnego między obiektami w
 F=(G*m1*m2)/s**2
-print('siła oddziaływania grawitacyjnego między obiektami', F, 'Newtonów\n')
+print('siła oddziaływania grawitacyjnego między obiektami na w t=0', F, 'Newtonów\n')
 #przyspieszenie pierwszego obiektu
 a1=(G*m2)/s**2
 print('przyspieszenie pierwszego obiektu wynosi', a1, 'metrów na sekundę do kwadratu\n' )
