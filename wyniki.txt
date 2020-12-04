@@ -1,0 +1,14 @@
+dane wejœciowe
+masa1=1000000.0
+promieñ1=1000000.0
+masa2=1000000.0
+promieñ2=1000000.0
+odleg³oœæ=1000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743e-11
+przyspiesznie1=6.674299999999999e-17
+przyspiesznie2=6.674299999999999e-17
+prêdkoœæ w chwili zderzenia 1 =3.33715e-11
+prêdkoœæ w chwili zderzenia 2 =3.33715e-11
+
