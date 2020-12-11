@@ -7,20 +7,20 @@
 #-----------------------------------------------------------------------------------
 plik=open('wyniki.txt', 'a')
 print("masa pierwszego obiektu w kg: ")
-m1=5.972*10**24
-#m1=float(input())
+#m1=5.972*10**24
+m1=float(input())
 print("promień pierwszego obiektu w m: ")
-r1=6378.137
-#r1=float(input())
+#r1=6378.137
+r1=float(input())
 print("masa drugiego obiektu w kg: ")
-m2=7.3477*10**22
-#m2=float(input())
+#m2=7.3477*10**22
+m2=float(input())
 print("promień drugiego obiektu w m: ")
-r2=1737.1
-#r2=float(input())
+#r2=1737.1
+r2=float(input())
 print("odległość pomiędzy powirzchniami obiektów w m: ")
-s=384400
-#s=float(input())
+#s=384400
+s=float(input())
 #Stała grawitacji
 G=6.67430*10**(-11)
 #siła oddziaływania grawitacyjnego między obiektami w

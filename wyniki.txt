@@ -530,3 +530,17 @@ przyspiesznie2=2697.4833003256017
 prêdkoœæ w chwili zderzenia 1 =604304644.5840092
 prêdkoœæ w chwili zderzenia 2 =49116149780.961426
 
+dane wejœciowe
+masa1=1000000000000.0
+promieñ1=100000.0
+masa2=111111111111.0
+promieñ2=100000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =0.07415888888881472
+przyspiesznie1=7.415888888881473e-14
+przyspiesznie2=6.674299999999999e-13
+prêdkoœæ w chwili zderzenia 1 =3.707944444440736e-05
+prêdkoœæ w chwili zderzenia 2 =0.000333715
+
