@@ -5,39 +5,78 @@
 #Autorzy: Kamil Sojka, Piotr Leymańczcyk
 
 #-----------------------------------------------------------------------------------
-plik=open('wyniki.txt', 'a')
-print("masa pierwszego obiektu w kg: ")
-#m1=5.972*10**24
-m1=float(input())
-print("promień pierwszego obiektu w m: ")
-#r1=6378.137
-r1=float(input())
-print("masa drugiego obiektu w kg: ")
-#m2=7.3477*10**22
-m2=float(input())
-print("promień drugiego obiektu w m: ")
-#r2=1737.1
-r2=float(input())
-print("odległość pomiędzy powirzchniami obiektów w m: ")
-#s=384400
-s=float(input())
+import funkcje
+print("wpisanie dom przy podawaniu wartości, spowoduje użycie wartości domyślnej. \nWartości te to odpowiednio: masa Ziemi, promień Ziemi, masa księżyca, promień księżyca i odległość księżyca od Ziemi")
+while True:
+    m1=input("masa pierwszego obiektu w kg: ")
+    if m1=='dom':
+        m1 = 5.972 * 10 ** 24
+    wynikT=funkcje.test(m1)
+    if wynikT==True:
+        m1=float(m1)
+        break
+
+while True:
+    r1=input("promień pierwszego obiektu w m: ")
+    if r1=='dom':
+        r1 = 6378.137
+    wynikT = funkcje.test(r1)
+    if wynikT == True:
+        r1=float(r1)
+        break
+
+while True:
+    m2=input("masa drugiego obiektu w kg: ")
+    if m2=='dom':
+        m2 = 7.3477 * 10 ** 22
+    wynikT = funkcje.test(m2)
+    if wynikT == True:
+        m2=float(m2)
+        break
+
+while True:
+    r2=input("promień drugiego obiektu w m: ")
+    if r2=='dom':
+        r2 = 1737.1
+    wynikT = funkcje.test(r2)
+    if wynikT == True:
+        r2=float(r2)
+        break
+
+while True:
+    s=input("odległość pomiędzy powirzchniami obiektów w m: ")
+    if s=='dom':
+        s = 384400
+    wynikT = funkcje.test(s)
+    if wynikT == True:
+        s=float(s)
+        break
+
+
 #Stała grawitacji
 G=6.67430*10**(-11)
+
 #siła oddziaływania grawitacyjnego między obiektami w
 F=(G*m1*m2)/s**2
 print('siła oddziaływania grawitacyjnego między obiektami na dla t=0: ', F, 'Newtonów\n')
+
 #przyspieszenie pierwszego obiektu
 a1=(G*m2)/s**2
 print('przyspieszenie pierwszego obiektu wynosi', a1, 'metrów na sekundę do kwadratu\n' )
+
 #przyspieszenie drugiego obiektu
 a2=(G*m1)/s**2
 print('przyspieszenie drugiego obiektu wynosi', a2, 'metrów na sekundę do kwadratu\n')
+
 #prędkość ciała 1 w chwili zderzenia
 V1=(G*m2)/(r1+r2)
 print('prędkość ciała 1 w chwili zderzenia wynosi', V1, 'metrów na sekundę\n')
+
 #prędkość ciała 2 w chwili zderzenia
 V2=(G*m1)/(r1+r2)
 print('prędkość ciała 2 w chwili zderzenia wynosi', V2, 'metrów na sekundę\n')
+
+
 t=['dane wejściowe',
 '\nmasa1=',str(m1),
 '\npromień1=',str(r1),
@@ -52,42 +91,9 @@ t=['dane wejściowe',
 '\nprędkość w chwili zderzenia 1 =' ,str(V1),
 '\nprędkość w chwili zderzenia 2 =' ,str(V2),'\n\n']
 
+plik=open('wyniki.txt', 'a')
 plik.writelines(t)
 plik.close()
 
-import matplotlib.pyplot as plt
-
-v10 = (G*m2)/(s)
-v11 = (G*m2)/(9*s/10)
-v12 = (G*m2)/(8*s/10)
-v13 = (G*m2)/(7*s/10)
-v14 = (G*m2)/(6*s/10)
-v15 = (G*m2)/(5*s/10)
-v16 = (G*m2)/(4*s/10)
-v17 = (G*m2)/(3*s/10)
-v18 = (G*m2)/(2*s/10)
-v19 = (G*m2)/(s/10)
-x1 = [s, s*9/10, s*8/10, s*7/10, s*6/10, s*5/10, s*4/10, s*3/10, s*2/10, s/10, 0]
-y1 = [v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, V1]
-
-v20 = (G*m1)/(s)
-v21 = (G*m1)/(9*s/10)
-v22 = (G*m1)/(8*s/10)
-v23 = (G*m1)/(7*s/10)
-v24 = (G*m1)/(6*s/10)
-v25 = (G*m1)/(5*s/10)
-v26 = (G*m1)/(4*s/10)
-v27 = (G*m1)/(3*s/10)
-v28 = (G*m1)/(2*s/10)
-v29 = (G*m1)/(s/10)
-x2 = [s, s*9/10, s*8/10, s*7/10, s*6/10, s*5/10, s*4/10, s*3/10, s*2/10, s/10, 0]
-y2 = [v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, V2]
-
-
-plt.plot(x1,y1)
-plt.plot(x2,y2)
-plt.title('Zależnosc predkosci od czasu')
-plt.xlabel('odleglosc')
-plt.ylabel('predkosc')
-plt.legend(['cialo1', 'cialo2'])
-plt.show()
+wynik=funkcje.funkcje(G, m1, m2, s, V1, V2)
+funkcje.wykresy(wynik[0],wynik[1],wynik[2], wynik[3])

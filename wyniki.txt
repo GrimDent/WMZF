@@ -544,3 +544,353 @@ przyspiesznie2=6.674299999999999e-13
 prêdkoœæ w chwili zderzenia 1 =3.707944444440736e-05
 prêdkoœæ w chwili zderzenia 2 =0.000333715
 
+dane wejœciowe
+masa1=100000.0
+promieñ1=1000000000000.0
+masa2=1000000000.0
+promieñ2=1000000.0
+odleg³oœæ=10000000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743e-17
+przyspiesznie1=6.6743e-22
+przyspiesznie2=6.6743e-26
+prêdkoœæ w chwili zderzenia 1 =6.674293325706674e-14
+prêdkoœæ w chwili zderzenia 2 =6.674293325706674e-18
+
+dane wejœciowe
+masa1=1000000000000.0
+promieñ1=100000.0
+masa2=10000000000000.0
+promieñ2=100000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743
+przyspiesznie1=6.6742999999999995e-12
+przyspiesznie2=6.674299999999999e-13
+prêdkoœæ w chwili zderzenia 1 =0.0033371499999999997
+prêdkoœæ w chwili zderzenia 2 =0.000333715
+
+dane wejœciowe
+masa1=10000000000000.0
+promieñ1=100000.0
+masa2=1000000000000.0
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743
+przyspiesznie1=6.674299999999999e-13
+przyspiesznie2=6.6742999999999995e-12
+prêdkoœæ w chwili zderzenia 1 =6.0675454545454543e-05
+prêdkoœæ w chwili zderzenia 2 =0.0006067545454545454
+
+dane wejœciowe
+masa1=10000000000.0
+promieñ1=100000.0
+masa2=100000000000.0
+promieñ2=10000.0
+odleg³oœæ=1000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =0.066743
+przyspiesznie1=6.6742999999999995e-12
+przyspiesznie2=6.6743e-13
+prêdkoœæ w chwili zderzenia 1 =6.0675454545454543e-05
+prêdkoœæ w chwili zderzenia 2 =6.067545454545454e-06
+
+dane wejœciowe
+masa1=100000000.0
+promieñ1=1000.0
+masa2=100000000.0
+promieñ2=10000.0
+odleg³oœæ=1000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =0.6674299999999999
+przyspiesznie1=6.6742999999999996e-09
+przyspiesznie2=6.6742999999999996e-09
+prêdkoœæ w chwili zderzenia 1 =6.067545454545454e-07
+prêdkoœæ w chwili zderzenia 2 =6.067545454545454e-07
+
+dane wejœciowe
+masa1=1000000000000.0
+promieñ1=10000.0
+masa2=1000000000.0
+promieñ2=1000.0
+odleg³oœæ=100000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743
+przyspiesznie1=6.6742999999999995e-12
+przyspiesznie2=6.6742999999999996e-09
+prêdkoœæ w chwili zderzenia 1 =6.067545454545454e-06
+prêdkoœæ w chwili zderzenia 2 =0.006067545454545454
+
+dane wejœciowe
+masa1=1000000000000.0
+promieñ1=1000000.0
+masa2=1000000000000.0
+promieñ2=100000.0
+odleg³oœæ=1000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =66.743
+przyspiesznie1=6.6743e-11
+przyspiesznie2=6.6743e-11
+prêdkoœæ w chwili zderzenia 1 =6.0675454545454543e-05
+prêdkoœæ w chwili zderzenia 2 =6.0675454545454543e-05
+
+dane wejœciowe
+masa1=-1e+23
+promieñ1=10000000000.0
+masa2=1000000.0
+promieñ2=100.0
+odleg³oœæ=100000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =-667429999.9999999
+przyspiesznie1=6.6743e-15
+przyspiesznie2=-667.43
+prêdkoœæ w chwili zderzenia 1 =6.6742999332570004e-15
+prêdkoœæ w chwili zderzenia 2 =-667.4299933257
+
+dane wejœciowe
+masa1=5.972e+24
+promieñ1=6378.137
+masa2=7.3477e+22
+promieñ2=1737.1
+odleg³oœæ=384400
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =1.9820298045802424e+26
+przyspiesznie1=33.18871072639388
+przyspiesznie2=2697.4833003256017
+prêdkoœæ w chwili zderzenia 1 =604304644.5840092
+prêdkoœæ w chwili zderzenia 2 =49116149780.961426
+
+dane wejœciowe
+masa1=5.972e+24
+promieñ1=6378.137
+masa2=7.3477e+22
+promieñ2=1737.1
+odleg³oœæ=384400
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =1.9820298045802424e+26
+przyspiesznie1=33.18871072639388
+przyspiesznie2=2697.4833003256017
+prêdkoœæ w chwili zderzenia 1 =604304644.5840092
+prêdkoœæ w chwili zderzenia 2 =49116149780.961426
+
+dane wejœciowe
+masa1=1e+31
+promieñ1=1000000000000000.0
+masa2=1e+33
+promieñ2=100000000000000.0
+odleg³oœæ=1000000000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.674299999999999e+29
+przyspiesznie1=0.066743
+przyspiesznie2=0.00066743
+prêdkoœæ w chwili zderzenia 1 =60675454.54545454
+prêdkoœæ w chwili zderzenia 2 =606754.5454545454
+
+dane wejœciowe
+masa1=1e+26
+promieñ1=100000000000.0
+masa2=1e+32
+promieñ2=100000000000.0
+odleg³oœæ=10000000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.674300000000001e+27
+przyspiesznie1=66.743
+przyspiesznie2=6.6743e-05
+prêdkoœæ w chwili zderzenia 1 =33371499999.999996
+prêdkoœæ w chwili zderzenia 2 =33371.5
+
+dane wejœciowe
+masa1=1e+36
+promieñ1=10000.0
+masa2=1e+39
+promieñ2=100000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743e+50
+przyspiesznie1=667430000000000.0
+przyspiesznie2=667430000000.0
+prêdkoœæ w chwili zderzenia 1 =6.067545454545454e+23
+prêdkoœæ w chwili zderzenia 2 =6.067545454545454e+20
+
+dane wejœciowe
+masa1=1e+36
+promieñ1=100000.0
+masa2=1e+36
+promieñ2=100000.0
+odleg³oœæ=100000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743e+51
+przyspiesznie1=6674300000000000.0
+przyspiesznie2=6674300000000000.0
+prêdkoœæ w chwili zderzenia 1 =3.3371499999999997e+20
+prêdkoœæ w chwili zderzenia 2 =3.3371499999999997e+20
+
+dane wejœciowe
+masa1=1e+36
+promieñ1=10000000.0
+masa2=1e+36
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =6.6743e+47
+przyspiesznie1=667430000000.0
+przyspiesznie2=667430000000.0
+prêdkoœæ w chwili zderzenia 1 =6.067545454545454e+18
+prêdkoœæ w chwili zderzenia 2 =6.067545454545454e+18
+
+dane wejœciowe
+masa1=1e+36
+promieñ1=1000000.0
+masa2=1e+36
+promieñ2=1000000.0
+odleg³oœæ=200000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =1.3789876033057852e+49
+przyspiesznie1=13789876033057.852
+przyspiesznie2=13789876033057.852
+prêdkoœæ w chwili zderzenia 1 =3.33715e+19
+prêdkoœæ w chwili zderzenia 2 =3.33715e+19
+
+dane wejœciowe
+masa1=1e+36
+promieñ1=1000000.0
+masa2=1e+36
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =4.634930555555555e+47
+przyspiesznie1=463493055555.55554
+przyspiesznie2=463493055555.55554
+prêdkoœæ w chwili zderzenia 1 =3.33715e+19
+prêdkoœæ w chwili zderzenia 2 =3.33715e+19
+
+dane wejœciowe
+masa1=5.972e+24
+promieñ1=6378.137
+masa2=7.3477e+22
+promieñ2=1737.1
+odleg³oœæ=384400.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =1.9009202554967635e+26
+przyspiesznie1=31.83054681005967
+przyspiesznie2=2587.0956292401206
+prêdkoœæ w chwili zderzenia 1 =604304644.5840092
+prêdkoœæ w chwili zderzenia 2 =49116149780.961426
+
+dane wejœciowe
+masa1=1e+36
+promieñ1=1000000.0
+masa2=1e+36
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =4.634930555555555e+47
+przyspiesznie1=463493055555.55554
+przyspiesznie2=463493055555.55554
+prêdkoœæ w chwili zderzenia 1 =3.33715e+19
+prêdkoœæ w chwili zderzenia 2 =3.33715e+19
+
+dane wejœciowe
+masa1=1e+48
+promieñ1=100000.0
+masa2=1e+48
+promieñ2=100000.0
+odleg³oœæ=200000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =4.1714374999999997e+74
+przyspiesznie1=4.1714375e+26
+przyspiesznie2=4.1714375e+26
+prêdkoœæ w chwili zderzenia 1 =3.33715e+32
+prêdkoœæ w chwili zderzenia 2 =3.33715e+32
+
+dane wejœciowe
+masa1=1e+48
+promieñ1=1000000.0
+masa2=1e+48
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =4.634930555555555e+71
+przyspiesznie1=4.6349305555555554e+23
+przyspiesznie2=4.6349305555555554e+23
+prêdkoœæ w chwili zderzenia 1 =3.33715e+31
+prêdkoœæ w chwili zderzenia 2 =3.33715e+31
+
+dane wejœciowe
+masa1=1e+48
+promieñ1=1000000.0
+masa2=1e+48
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =4.634930555555555e+71
+przyspiesznie1=4.6349305555555554e+23
+przyspiesznie2=4.6349305555555554e+23
+prêdkoœæ w chwili zderzenia 1 =3.33715e+31
+prêdkoœæ w chwili zderzenia 2 =3.33715e+31
+
+dane wejœciowe
+masa1=1e+49
+promieñ1=1000000.0
+masa2=1e+49
+promieñ2=1000000.0
+odleg³oœæ=10000000.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =4.6349305555555544e+73
+przyspiesznie1=4.634930555555555e+24
+przyspiesznie2=4.634930555555555e+24
+prêdkoœæ w chwili zderzenia 1 =3.33715e+32
+prêdkoœæ w chwili zderzenia 2 =3.33715e+32
+
+dane wejœciowe
+masa1=5.972e+24
+promieñ1=6378.137
+masa2=7.3477e+22
+promieñ2=1737.1
+odleg³oœæ=384400.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =1.9820298045802424e+26
+przyspiesznie1=33.18871072639388
+przyspiesznie2=2697.4833003256017
+prêdkoœæ w chwili zderzenia 1 =604304644.5840092
+prêdkoœæ w chwili zderzenia 2 =49116149780.961426
+
+dane wejœciowe
+masa1=5.972e+24
+promieñ1=6378.137
+masa2=7.3477e+22
+promieñ2=1737.1
+odleg³oœæ=384400.0
+
+dane wyjœciowe
+si³a grawitacyjna t=0 =1.9820298045802424e+26
+przyspiesznie1=33.18871072639388
+przyspiesznie2=2697.4833003256017
+prêdkoœæ w chwili zderzenia 1 =604304644.5840092
+prêdkoœæ w chwili zderzenia 2 =49116149780.961426
+
